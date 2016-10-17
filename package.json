@@ -1,7 +1,7 @@
 {
   "name": "bastionize",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Configure a bastion host in your ~/.ssh/config",
   "license": "MIT",
   "repository": "bendrucker/bastionize",
