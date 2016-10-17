@@ -1,0 +1,5 @@
+Host 10.10.*
+  IdentityFile ~/.ssh/identity
+
+Host 10.20.*
+  IdentityFile ~/.ssh/identity20

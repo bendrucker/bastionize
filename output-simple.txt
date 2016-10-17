@@ -1,0 +1,6 @@
+Host 10.10.*
+  User me
+  ProxyCommand "ssh -t -A bastion.host nc %h %p 2> /dev/null"
+
+Host 10.20.*
+  IdentityFile ~/.ssh/identity20
