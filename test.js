@@ -11,8 +11,8 @@ test('simple', function (t) {
 
   const input = fs.readFileSync(`${__dirname}/input.txt`, 'utf8')
   const expected = fs.readFileSync(`${__dirname}/output-simple.txt`, 'utf8')
-  const bastion = {host: 'bastion.host'}
-  const targets = [{host: '10.10.*', user: 'me'}]
+  const bastion = { host: 'bastion.host' }
+  const targets = [{ host: '10.10.*', user: 'me' }]
 
   bastionize(input, bastion, targets, function (err, output) {
     if (err) return t.end(err)
@@ -25,8 +25,8 @@ test('custom bastion settings', function (t) {
 
   const input = fs.readFileSync(`${__dirname}/input.txt`, 'utf8')
   const expected = fs.readFileSync(`${__dirname}/output-custom.txt`, 'utf8')
-  const bastion = {host: 'bastion.host', user: 'me'}
-  const targets = [{host: '10.10.*', user: 'me'}]
+  const bastion = { host: 'bastion.host', user: 'me' }
+  const targets = [{ host: '10.10.*', user: 'me' }]
 
   bastionize(input, bastion, targets, function (err, output) {
     if (err) return t.end(err)

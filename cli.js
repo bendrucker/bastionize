@@ -47,5 +47,5 @@ read()
 
 function createHost (host) {
   assert(host, 'undefined host: ' + host)
-  return Object.assign({host}, cli.flags)
+  return Object.assign({ host }, cli.flags)
 }
