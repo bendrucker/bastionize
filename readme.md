@@ -1,4 +1,4 @@
-# bastionize [![Build Status](https://travis-ci.org/bendrucker/bastionize.svg?branch=master)](https://travis-ci.org/bendrucker/bastionize)
+# bastionize [![Build Status](https://travis-ci.org/bendrucker/bastionize.svg?branch=master)](https://travis-ci.org/bendrucker/bastionize) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/bastionize.svg)](https://greenkeeper.io/)
 
 > Configure a bastion host in your ~/.ssh/config
 
