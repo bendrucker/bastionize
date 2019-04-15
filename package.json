@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "detect-indent": "~5.0.0",
-    "get-stdin": "~6.0.0",
+    "get-stdin": "~7.0.0",
     "meow": "~5.0.0",
     "pascalcase-keys": "~1.0.1",
     "pify": "~4.0.1",
